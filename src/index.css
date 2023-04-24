@@ -1,0 +1,10 @@
+body {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  background-color: black;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar invisible */
+}

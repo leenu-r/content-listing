@@ -1,0 +1,53 @@
+.movie-poster  {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 0;
+    margin-bottom: 24px;
+    transition: opacity 3s ease-in-out;
+  }
+  .movie-title{
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    margin-bottom: 60px;
+    max-width: 95px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
+
+     /* On screens that are 1250px wide or less*/
+@media screen and (max-width: 1250px) {
+  .movie-title {
+    max-width:150px;
+  }
+}
+
+  /* On screens that are 992px wide or less*/
+@media screen and (max-width: 992px) {
+  .search-icon  {
+    max-width:90px;
+  }
+}
+
+/* On screens that are 600px wide or less*/
+@media screen and (max-width: 600px) {
+  .movie-title  {
+    max-width:85px;
+  }
+}
+
+/* On screens that are 400px wide or less*/
+@media screen and (max-width: 400px) {
+  .movie-title  {
+    max-width:74px;
+  }
+}
+
+/* On screens that are 300px wide or less*/
+@media screen and (max-width: 300px) {
+  .movie-title  {
+    max-width:50px;
+  }
+} 
+

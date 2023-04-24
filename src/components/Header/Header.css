@@ -1,0 +1,75 @@
+  .heading {
+    background-image: url('/public/Slices/nav_bar.png');
+    color: #ffffff;
+    height: 192px;
+    margin-bottom: 36px;
+    display: flex;
+    flex-direction: row;
+  }
+  .back-button  {
+    height: 40px;
+    align-self: flex-end;
+
+  }
+
+  .header-left{
+    flex: 50%;
+    align-self: flex-end;
+
+  }
+  .header-right{
+    align-self: flex-end;
+
+  }
+
+  .heading button{
+    background:none;
+    border: none;
+  }
+
+  .movie-category{
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 50px;
+    margin-left: 2%;
+  }
+
+/* On screens that are 1250px wide or less*/
+@media screen and (max-width: 1250px) {
+  .movie-category {
+    font-size: 40px;
+  }
+  .back-button  {
+    height:35px;
+  }
+}
+
+  /* On screens that are 992px wide or less*/
+@media screen and (max-width: 992px) {
+  .movie-category {
+    font-size: 35px;
+  }
+  .back-button  {
+    height:30px;
+  }
+}
+
+/* On screens that are 600px wide or less*/
+@media screen and (max-width: 600px) {
+  .movie-category {
+    font-size: 30px;
+  }
+  .back-button  {
+    height:25px;
+  }
+}
+
+/* On screens that are 400px wide or less*/
+@media screen and (max-width: 400px) {
+  .movie-category {
+    font-size: 25px;
+  }
+  .back-button  {
+    height:22px;
+  }
+}
